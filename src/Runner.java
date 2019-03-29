@@ -16,8 +16,8 @@ public class Runner {
         array.insert(666, 2);
         System.out.println(array);
 
-//        Collections.sort(array);
-//        System.out.println(array);
+        Collections.sort(array);
+        System.out.println(array);
 
         array.addRange(5, -100, 77);
         System.out.println(array);
