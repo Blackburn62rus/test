@@ -13,7 +13,7 @@ public class Runner {
         //array.add(-100);
         array.add(444);
         System.out.println(array);
-        array.insert(666, 2);
+        array.insert(666, 2);//hfhfh
       //  System.out.println(array);
 
         Collections.sort(array);
