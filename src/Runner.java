@@ -21,6 +21,7 @@ public class Runner {
 
         for (Integer integer : array2) {
             System.out.println(integer);
+            System.out.println(integer);
         }
 
         array.addRange(5, -100, 77);
