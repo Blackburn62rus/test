@@ -1,7 +1,5 @@
 import java.util.Collections;
-import java.awt.*;
-import java.util.Collections;
-import java.awt.*;
+
 public class Runner {
 
     public static void main(String[] args) {
@@ -18,13 +16,8 @@ public class Runner {
         array.insert(666, 2);
         System.out.println(array);
 
-        Collections.sort(array);
-        System.out.println(array);
-
-        for (Integer integer : array2) {
-            System.out.println(integer);
-            System.out.println(integer);
-        }
+//        Collections.sort(array);
+//        System.out.println(array);
 
         array.addRange(5, -100, 77);
         System.out.println(array);
