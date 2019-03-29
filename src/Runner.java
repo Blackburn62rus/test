@@ -10,7 +10,7 @@ public class Runner {
         System.out.println(array2.getCapacity());
       //  System.out.println(array);
         array.add(399);
-        array.add(-100);
+        //array.add(-100);
         array.add(444);
         System.out.println(array);
         array.insert(666, 2);
