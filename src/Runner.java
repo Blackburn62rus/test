@@ -8,13 +8,13 @@ public class Runner {
         DynamicArray<Integer> array2 = new DynamicArray<>();
         System.out.println(array1.getCapacity());
         System.out.println(array2.getCapacity());
-        System.out.println(array);
+      //  System.out.println(array);
         array.add(399);
         array.add(-100);
         array.add(444);
         System.out.println(array);
         array.insert(666, 2);
-        System.out.println(array);
+      //  System.out.println(array);
 
         Collections.sort(array);
         System.out.println(array);
