@@ -14,7 +14,8 @@ public class DynamicArray<T> extends AbstractList<T> {
     public DynamicArray(T... args) {
         arrayBody =  args;
         //766676
-        capacity = currentSize = args.length;
+        // 4363
+        capacity = currentSize = args.length;yuf
     }
 //2323
     public DynamicArray(int size) {
