@@ -16,7 +16,7 @@ public class DynamicArray<T> extends AbstractList<T> {
         //766676
         capacity = currentSize = args.length;
     }
-
+//2323
     public DynamicArray(int size) {
         if(size < 1) {
             throw new IllegalArgumentException("Illegal size");
