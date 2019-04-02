@@ -1,7 +1,7 @@
 import java.util.AbstractList;
 import java.util.Iterator;
 
-public class DynamicArray<T>  extends AbstractList<T> {
+public class DynamicArray<T> extends AbstractList<T> {
 
     private T[] arrayBody;
     private int currentSize;
@@ -13,6 +13,7 @@ public class DynamicArray<T>  extends AbstractList<T> {
 
     public DynamicArray(T... args) {
         arrayBody =  args;
+        //766676
         capacity = currentSize = args.length;
     }
 
